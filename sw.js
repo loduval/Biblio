@@ -1,7 +1,7 @@
 // Service worker — Ma Bibliothèque
 // Stratégie : réseau d'abord (pour toujours avoir la dernière version),
 // cache en secours (pour fonctionner hors-ligne). N'intercepte que le même domaine.
-const CACHE = 'mabibli-v1';
+const CACHE = 'mabibli-v2';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
